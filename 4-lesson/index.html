@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function decolaretion, func expression, func arrow</title>
+</head>
+<body>
+<script>
+    // ФУНКЦИЯ - выполнеие задачу
+
+    // 1. func dec
+    // function - функции, начинающиеся со слова func dec
+    // function calam(){
+    //    alert('Всем привет!')
+    // }
+    // salamBer()
+
+    // аргумент - информация
+
+    // function salamBer(arg){
+    //     alert(arg)
+    // }
+    // salamBer('Всем привет!')
+    // salamBer('как дела?')
+
+    // function salamBer(arg1, arg2, arg3){
+    //     alert(arg1 +' жана '+ arg2 +" силер "+ arg3 +" менен таанышасынарбы?" );
+    //     alert(arg2)
+    //     alert(arg3)
+    // }
+    // salamBer('Айжан', "Арсен", "Айдана");
+
+    // 2. func expression
+    // ели они начинаются с переменой
+
+    // let salamBer = function(){
+    //     alert('Всем привет!');
+    // };
+    // salamBer();  
+    // let salamBer = function(arg1, arg2, arg3){
+    //     alert(arg1 +' жана '+ arg2 +" силер "+ arg3 +" менен таанышасынарбы?" );
+    //     alert(arg2)
+    //     alert(arg3)
+    // }
+    // salamBer('Айжан', "Арсен", "Айдана");
+
+    // стрелочный функция ()=> {} arrow
+
+    // let salamBer = (arg1, arg2, arg3 )=> {
+    //     alert(arg1 +' жана '+ arg2 +" силер "+ arg3 +" менен таанышасынарбы?" );
+
+    // };
+    // salamBer('Айжан', "Арсен", "Айдана");
+
+    // let age = prompt('Сколько тебе лет?')
+
+    // let checAge = () => {
+    //     if(age < 17){
+    //        return alert('Кажется ты не закончил школу');
+    //     } else {
+    //        return alert('Вроде ты закончил школу');
+    //     }
+    // };
+
+    // checAge();
+
+    // let age = prompt('Сколько тебе лет?')
+
+    // let checAge =(age < 17)
+    //     ? () => alert('Кажется ты не закончил школу')     
+    //     : () => alert('Вроде ты закончил школу');
+
+    //     checAge(age)
+
+    function calculateAge(year) {
+        return 2022 - year
+     };
+
+     console.log(calculateAge(1996));
+     console.log(calculateAge(2006));
+     
+</script> 
+</body>
+</html>

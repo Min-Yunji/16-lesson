@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while.for.switch case</title>
+    <style>
+        #b {
+            color: beige;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="b">заменить</div>
+    <script>
+        //  цикл - повтор
+        //  while -  пока-что
+        // for - для
+
+        // let i = 0
+
+        // while (a < 3) {
+        //     alert(a);
+        //     a++;
+        //     // a = a+1
+        // }
+
+        // let age = 0
+        // while(age<6){
+        //     alert('бала мектепке кабыл алынбайт')
+        //     age++
+        // }
+
+        // let age = 0
+
+        // do {
+        //     alert("паспорт берилбейт");
+        //     age++;
+        // } while (age < 18);
+
+        // for(башталышы, шарт, шаг){
+
+        // }
+
+        // for(let age =0; age< 3; age++) {
+        // alert(age)
+        // }
+
+        // switch - переключитель
+        // case - случи
+        // if else - замена
+        // break - разбивать
+
+        // let a = prompt("2+2 = ?");
+
+        switch (Number(a)) {
+  case 3:
+    alert("Маловато");
+    break;
+  case 4:
+    alert("В точку!");
+    break;
+  case 5:
+    alert("Перебор");
+    break;
+  default:
+    alert("Нет таких значений");
+}
+
+        let a = prompt("В каком году Кыргызстан получил независимость?");
+
+        let b = document.getElementById('b')
+
+        switch (Number(a)) {
+  case 1990:
+    b.innerHTML  = 'Маловато'
+    b.style.transform = 'rotate(360deg)';
+    b.style.transition = '3s'
+    b.style.backgroundColor = "blue";
+
+    break;
+  case 1991:
+    b.innerHTML  = 'В точку!'
+    b.style.transform = 'rotate(360deg)';
+    b.style.transition = '3s'
+    b.style.backgroundColor = "red";
+
+    break;
+  case 1995:
+    b.innerHTML  = "Перебор"
+    b.style.transform = 'rotate(360deg)';
+    b.style.transition = '3s'
+    b.style.backgroundColor = "black";
+    
+    break;
+  default:
+    b.innerHTML  = "Нет таких значений"
+    b.style.transform = 'rotate(360deg)';
+    b.style.transition = '3s'
+    b.style.backgroundColor = "grey";
+
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype,spread operator</title>
+</head>
+<body>
+    <script>
+        // let obj1 = {
+        //     name: "Aielita",
+        //     last_name: "Kubatbekova",
+        // };
+        // let obj2 = obj1;
+        // obj2.name = 'Aijan'
+
+        // console.log(obj2)
+        // console.log(obj1)
+        // spread operator
+
+        // let obj1 = {
+        //     name: "Aielita",
+        //     last_name: "Kubatbekova",
+        // };
+
+        // let obj2 = {
+        //     ...obj1
+        // }
+
+        // obj2.name = 'Aijan'
+        // obj2.last_name = 'Adiletova'
+        // console.log(obj2)
+        // console.log(obj1)
+
+        // ()-функция
+        // {}-обьект
+        // []-массив
+
+        let animals = function(name, age){
+            this.age = age
+            this.name = name
+            this.eat = function(){
+                alert(name + " " + "сут ичет")
+                alert(name + " " + age + " " + "жашта")
+            }
+        }
+
+        let cat = new animals('Demo', 3)
+        // let dog = new animals('Leo', 5)
+        // dog.eat()
+        cat.eat()
+
+        
+    </script>
+</body>
+</html>

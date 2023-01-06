@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        // 2 вида открытие объекта
+        // let object = new object()
+        // 2 вид 
+        //  key, value
+        // let user = {
+        //     name: "Aielita", 
+        //     age: 16,
+        //     last_name: "Kubatbkova",
+        //     edycation:{
+        //         school: "#5",
+        //         unversity: "imu",
+        //     },
+        // };
+
+        // console.log(Object.keys(user)[0]);
+        // console.log(Object.keys(user).length);
+        // for(key in user){
+        //     console.log(user[key])
+        // }
+        // console.log(user); - общий
+        // console.log(user.age); - возраст
+        // console.log(user.edycation.unversity); - 
+        // console.log(Object.keys(user)); - ключ
+        // console.log(Object.values(user)); - только значения
+        // let car {
+        //     marka: 'BMW'
+        //     model: "X7"
+        //     motor: "4.0"
+        //     color: "black"
+        // };
+        
+        // let obj1 = {
+        //     name: "Aielita",
+        //     last_name: "Kubatbekova"
+        // };
+
+        // let obj2 = {
+        //     name: "Aielita",
+        //     last_name: "Kubatbekova"
+        // };
+
+        // let equale = obj1 == obj2;
+
+        // console.log(equale);
+        // объект нельзя сравнивать, даже если онb на 100% похожи
+
+        // let user = {
+        //     name: "Aielita", 
+        //     age: 16,
+        //     last_name: "Kubatbkova",
+        //     edycation:{
+        //         school: "#5",
+        //         unversity: "imu",
+        //     },
+        // };
+
+        // console.log(Object.assign(user,{
+        //     pasword:'123asd',login:'dui'
+        // }))
+
+        let user = prompt('Ведите сюда свою электронную почту')
+        if(user='kubatbekovaayelita@gmail.com' ){
+            let admin = prompt('Ведите пароль от почты')
+            if(admin='password00'){
+                alert('Пароль вeрный. Добро пожаловать')
+                alert('Решите математическую задачу и получите оценку')
+                let a = prompt('195+245=?');
+                switch (Number(a)) {
+             case 440:
+               alert("В точку! Ты правильно ответил, твоя оценка 5");
+             break;
+            default:
+               alert("Нет таких значений попробуй ещё раз");
+            }
+        }
+        };
+    </script>
+</body>
+</html>
